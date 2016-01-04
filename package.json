@@ -37,7 +37,6 @@
     },{
         "name": "neonexus",
         "github": "https://github.com/neonexus"
-    }
     }],
     "devDependencies": {
         "chai": "^1.10.0",
