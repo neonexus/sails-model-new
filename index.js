@@ -48,6 +48,11 @@ module.exports = function(sails) {
                     patch();
                     done();
                 });
+                
+            // reattach after ORM has been reloaded
+            sails.on('hook:orm:reload', function(){
+                patch();
+            });
         }
     };
 
