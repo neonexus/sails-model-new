@@ -1,6 +1,6 @@
 {
     "name": "sails-model-new",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Initialize new sails model instance while maintain the current scope",
     "main": "index.js",
     "sails": {
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/lykmapipo/sails-model-new.git"
+        "url": "https://github.com/neonexus/sails-model-new.git"
     },
     "keywords": [
         "sails",
@@ -28,12 +28,16 @@
     "author": "Lally Elias",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/lykmapipo/sails-model-new/issues"
+        "url": "https://github.com/neonexus/sails-model-new/issues"
     },
-    "homepage": "https://github.com/lykmapipo/sails-model-new",
+    "homepage": "https://github.com/neonexus/sails-model-new",
     "contributors": [{
         "name": "lykmapipo",
         "github": "https://github.com/lykmapipo"
+    },{
+        "name": "neonexus",
+        "github": "https://github.com/neonexus"
+    }
     }],
     "devDependencies": {
         "chai": "^1.10.0",
